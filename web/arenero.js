@@ -44,6 +44,9 @@ function probar(){
     var texto = funcion.value;
     sandbox.parametros=[];
     parametros.innerHTML="";
+    if(!texto.trim()){
+        return;
+    }
     try{
         sandbox.funcion = null;
         var linea=0;
