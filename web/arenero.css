@@ -1,0 +1,26 @@
+#panel_izquierdo{
+    max-width: 50%;
+    width: 500px;
+    height: 400px;
+    float: left;
+    padding:4px;
+    margin:8px;
+}
+
+#parametros{
+    border: 1px solid lightgray;
+}
+
+#funcion{
+    width: 50%;
+    height: 200px;
+}
+
+#casos_de_prueba{
+    width: 50%;
+    height: 200px;
+}
+
+#boton_probar{
+    text-align:right;
+}
