@@ -1,7 +1,7 @@
 #panel_izquierdo{
     max-width: 50%;
     width: 500px;
-    height: 400px;
+    height: 600px;
     float: left;
     padding:4px;
     margin:8px;
@@ -11,7 +11,18 @@
     border: 1px solid lightgray;
 }
 
+#parametros>*{
+    margin: 8px;
+    font-size:110%;
+    font-family: Arial;
+}
+
+input{
+    font-size:110%;
+}
+
 #funcion{
+    font-size:16px;
     width: 50%;
     height: 200px;
 }
@@ -19,8 +30,30 @@
 #casos_de_prueba{
     width: 50%;
     height: 200px;
+    font-size:16px;
 }
 
 #boton_probar{
     text-align:right;
+}
+
+[probado] area_prueba::hover #casos_de_prueba{
+    display:block;
+}
+
+[probado] #casos_de_prueba{
+    display:none;
+}
+
+[probado] #resultados_prueba{
+    display:block;
+}
+
+#resultados_prueba{
+    display:none;
+}
+
+h2>span{
+    padding-left:32px;
+    padding-right:32px;
 }
