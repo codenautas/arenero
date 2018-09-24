@@ -159,7 +159,7 @@ window.addEventListener('load',function(){
         cargarEjemplo({
             funcion:"function isosceles(a,b,c){\n    return (a==b || b==c) && a != c;\n}",
             casos_de_prueba:'true;3;4;4\nfalse;4;4;4\nfalse;3;4;5',
-            aclaracion:'La función devuelve true si a, b y c corresponden a las longitudes de los lados de un triángulo isóceles. Un triángulo es isóceles si dos de sus lados tienen la misma longitud y el otro no. La función no considera todos los casos posibles, los casos de prueba tampoco'
+            aclaracion:'La función devuelve true si a, b y c corresponden a las longitudes de los lados de un triángulo isósceles. Un triángulo es isósceles si dos de sus lados tienen la misma longitud y el otro no. La función no considera todos los casos posibles, los casos de prueba tampoco'
         }); 
     };
 });
