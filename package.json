@@ -1,0 +1,24 @@
+{
+  "name": "arenero",
+  "version": "0.1.0",
+  "description": "Arenero (sand box) para visualizar ejemplos de casos de prueba",
+  "main": "web/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codenautas/arenero.git"
+  },
+  "keywords": [
+    "casos de prueba",
+    "tests",
+    "TDD"
+  ],
+  "author": "Emilio Platzer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codenautas/arenero/issues"
+  },
+  "homepage": "https://github.com/codenautas/arenero#readme"
+}
